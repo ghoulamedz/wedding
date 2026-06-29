@@ -57,7 +57,7 @@ var WEDDING_CONFIG = {
       ampm: "PM",
       lat: 35.508971,
       lng: 11.081458,
-      icon: "icon6.png"
+      icon: "icon5.png"
     },
      {
       date: "30 / 7 / 2026",
@@ -67,7 +67,7 @@ var WEDDING_CONFIG = {
       ampm: "PM",
       lat: 32.871710,
       lng: 10.379808,
-      icon: "icon6.png"
+      icon: "icon5.png"
     },
     // {
     //   date: "14 / 7 / 2026",
