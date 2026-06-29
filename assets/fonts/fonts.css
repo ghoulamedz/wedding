@@ -1,0 +1,77 @@
+@font-face {
+  font-family: 'Amiri';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url('Amiri-italic-400.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'Amiri';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('Amiri-400.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'Amiri';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url('Amiri-700.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'Aref Ruqaa';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('ArefRuqaa-400.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'Aref Ruqaa';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url('ArefRuqaa-700.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'Noto Naskh Arabic';
+  font-style: normal;
+  font-weight: 400 700;
+  font-display: swap;
+  src: url('NotoNaskhArabic.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'Scheherazade New';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('ScheherazadeNew-400.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'Scheherazade New';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url('ScheherazadeNew-500.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'Scheherazade New';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url('ScheherazadeNew-600.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'Scheherazade New';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url('ScheherazadeNew-700.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'Cormorant Garamond';
+  font-style: normal;
+  font-weight: 400 700;
+  font-display: swap;
+  src: url('CormorantGaramond.woff2') format('woff2');
+}

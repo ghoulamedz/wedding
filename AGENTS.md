@@ -20,7 +20,17 @@ Only edit `config.js`. Everything else stays untouched.
 - Timeline events are generated from config data, not hardcoded HTML.
 - Events alternate sides automatically (even index = text left, odd = icon left).
 - `openMap`, `closeMap`, `openInMaps` exposed on `window` for HTML onclick handlers.
-- Currently loads fonts and Leaflet from CDN.
+- Fully offline: fonts bundled locally (`assets/fonts/`), Leaflet bundled locally (`assets/leaflet/`).
+- Leaflet OSM tile layer (`{s}.tile.openstreetmap.org`) still requires network — only loads when user taps a location button.
+
+## Loading order
+
+```
+index.html:
+  1. config.js            ← data
+  2. assets/leaflet/leaflet.js  ← map library
+  3. render.js            ← rendering logic
+```
 
 ## No build tooling
 
