@@ -129,10 +129,11 @@ var WEDDING_CONFIG = {
       right: "assets/right4.jpg",
       seal: "assets/seal.webp"
     },
+    closingIcon: "assets/seal.webp",
     backgrounds: {
-      intro: "assets/image12_bg.jpg",
-      countdown: "assets/image5_bg.png",
-      program: "assets/image37_bg.png"
+      intro: "assets/intro-bg.jpg",
+      countdown: "assets/countdown-bg.jpg",
+      program: "assets/program-bg.jpg"
     }
   }
 };

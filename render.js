@@ -38,10 +38,10 @@
     document.getElementById('cd-title').textContent = C.labels.countdownTitle;
     document.getElementById('cd-subtitle').textContent = C.labels.countdownSubtitle;
     var cdLabels = document.querySelectorAll('.cd-label');
-    if (cdLabels[0]) cdLabels[0].textContent = C.labels.timeUnits.days;
-    if (cdLabels[1]) cdLabels[1].textContent = C.labels.timeUnits.hours;
-    if (cdLabels[2]) cdLabels[2].textContent = C.labels.timeUnits.minutes;
-    if (cdLabels[3]) cdLabels[3].textContent = C.labels.timeUnits.seconds;
+    if (cdLabels[0]) cdLabels[0].textContent = C.labels.timeUnits.seconds;
+    if (cdLabels[1]) cdLabels[1].textContent = C.labels.timeUnits.minutes;
+    if (cdLabels[2]) cdLabels[2].textContent = C.labels.timeUnits.hours;
+    if (cdLabels[3]) cdLabels[3].textContent = C.labels.timeUnits.days;
     var sh2 = document.getElementById('scroll-hint-2-text');
     if (sh2) sh2.textContent = C.labels.scrollHint;
 
