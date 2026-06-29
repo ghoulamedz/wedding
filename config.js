@@ -35,8 +35,8 @@ var WEDDING_CONFIG = {
       location: "فضاء بلدية تطاوين الجنوبية",
       time: "10:00",
       ampm: "AM",
-      lat: 35.632714,
-      lng: 10.941811,
+      lat: 32.924629,
+      lng: 10.439581,
       icon: "icon1.png"
     },
     {
@@ -45,19 +45,29 @@ var WEDDING_CONFIG = {
       location: "منزل العريس",
       time: "13:00",
       ampm: "PM",
-      lat: 35.642004,
-      lng: 10.966089,
-      icon: "icon2.png"
+      lat: 32.937178,
+      lng: 10.455197,
+      icon: "icon4.png"
     },
     {
-      date: "14 / 7 / 2026",
+      date: "01 / 8 / 2026",
       title: "سهرة للنساء",
       location: "منزل العريس",
       time: "10:00",
       ampm: "PM",
       lat: 35.508971,
       lng: 11.081458,
-      icon: "icon3.png"
+      icon: "icon6.png"
+    },
+     {
+      date: "30 / 7 / 2026",
+      title: "حنة العروسة",
+      location: "منزل العروسة",
+      time: "10:00",
+      ampm: "PM",
+      lat: 32.871710,
+      lng: 10.379808,
+      icon: "icon6.png"
     },
     // {
     //   date: "14 / 7 / 2026",

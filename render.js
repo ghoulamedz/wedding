@@ -19,6 +19,8 @@
     document.getElementById('invite-suffix').textContent = C.labels.inviteSuffix;
     document.getElementById('groom-name').textContent = C.couple.groom;
     document.getElementById('bride-name').textContent = C.couple.bride;
+    var nd = document.getElementById('names-divider');
+    if (nd) nd.textContent = C.labels.andSymbol;
     document.getElementById('scroll-hint-text').textContent = C.labels.scrollHint;
 
     // Families
@@ -79,7 +81,7 @@
     }
 
     // Closing
-    document.getElementById('closing-names').innerHTML = C.couple.groom + ' &amp; ' + C.couple.bride;
+    document.getElementById('closing-names').innerHTML = C.couple.groom + ' ' + C.labels.andSymbol + ' ' + C.couple.bride;
     document.getElementById('closing-tagline').textContent = C.labels.closingTagline;
 
     // Envelope seal text
