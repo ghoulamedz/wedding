@@ -266,12 +266,12 @@ body{font-family:'Noto Naskh Arabic',serif;background:#1a0f12;color:#3d2020;over
     justify-content:center;
   }
   #envelope-section{
-    width:330px;
-    max-width:calc(100vw - 60px);
+    max-width:600px;
+    width:min(600px, calc(100vw - 60px));
     border-radius:36px;
     box-shadow:0 40px 100px rgba(0,0,0,.45), 0 0 0 10px rgba(0,0,0,.12);
   }
 }
-  @media (min-width:900px){
-  .map-sheet{ max-width:330px; }
+@media (min-width:900px){
+  .map-sheet{ max-width:440px; }
 }
